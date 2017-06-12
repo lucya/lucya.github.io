@@ -2,9 +2,9 @@
 bg: "riya.jpg"
 layout: page
 title: "About"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "About Me"
 permalink: /about/
-summary: "About this blog"
+summary: "Who Am I"
 active: about
 ---
 
@@ -17,3 +17,6 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {{site.github_username}} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+<h2 class="category-key">Contact</h2>
+{{site.github_username}} / {{site.email}}
