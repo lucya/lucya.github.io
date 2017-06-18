@@ -2,8 +2,8 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
+title: "archive"
+crawlertitle: "archive"
 summary: "Posts about jekyll"
 active: archive
 ---
@@ -18,13 +18,8 @@ active: archive
     {% for post in posts %}
       {% if post.tags contains t %}
         <li>
-          {% if post.lastmod %}
             <a href="{{ post.url }}">{{ post.title }}</a>
-            <span class="date">{{ post.lastmod | date: "%d-%m-%Y"  }}</span>
-          {% else %}
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
-          {% endif %}
+            <span class="date">{{post.summary}}</span>
         </li>
       {% endif %}
     {% endfor %}
