@@ -45,3 +45,6 @@ sass:
 images: '/assets/images'
 
 highlighter: rouge
+
+google-analytics:
+  id: "UA-102111770-1"
