@@ -1,22 +1,15 @@
 ---
-bg: "riya.jpg"
+title: About
+bg: riya.jpg
 layout: page
-title: "About"
-crawlertitle: "About Me"
-permalink: /about/
-summary: "Who Am I"
+crawlertitle: About Me
+permalink: "/about/"
+summary: Who Am I
 active: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Web Front-End Developer!
 
-You can find the source code for the Jekyll new theme at:
-{{site.twitter_username}} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{{site.github_username}} /
-[jekyll](https://github.com/jekyll/jekyll)
 
 <h2 class="category-key">Contact</h2>
 {{site.github_username}} / {{site.email}}
