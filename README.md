@@ -1,6 +1,6 @@
 ## Portpolio
 
-click!!: <https://lucya.github.io/posts/>
+<!--click!!: <https://lucya.github.io/posts/>-->
 
 ### Keyword:
 
