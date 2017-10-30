@@ -1,10 +1,10 @@
 ---
-bg: "tag.jpg"
+title: archive
+bg: tag.jpg
 layout: page
-permalink: /posts/
-title: "archive"
-crawlertitle: "archive"
-summary: "Posts about jekyll"
+permalink: "/posts/"
+crawlertitle: archive
+summary: Posts about jekyll
 active: archive
 ---
 
@@ -14,6 +14,7 @@ active: archive
 
   <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
 
+<!--
   <ul class="year">
     {% for post in posts %}
       {% if post.tags contains t %}
@@ -24,5 +25,5 @@ active: archive
       {% endif %}
     {% endfor %}
   </ul>
-
+-->
 {% endfor %}

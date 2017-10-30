@@ -49,6 +49,3 @@ highlighter: rouge
 google-analytics:
   id: "UA-102111770-1"
   
-# jekyll_admin:
-#   hidden_links:
-#     - posts

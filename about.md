@@ -8,7 +8,9 @@ summary: Who Am I
 active: about
 ---
 
-Web Front-End Developer!
+Be a Web Front-End Master!
+
+
 
 
 <h2 class="category-key">Contact</h2>
